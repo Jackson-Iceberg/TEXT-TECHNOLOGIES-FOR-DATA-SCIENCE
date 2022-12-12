@@ -3,16 +3,16 @@
 ### Course Outline
 
 Syllabus:
-\* Introduction to IR and text processing, system components
-\* Zipf, Heaps, and other text laws
-\* Pre-processing: tokenization, normalisation, stemming, stopping.
-\* Indexing: inverted index, boolean and proximity search
-\* Evaluation methods and measures (e.g., precision, recall, MAP, significance testing).
-\* Query expansion
-\* IR toolkits and applications
-\* Ranked retrieval and learning to rank
-\* Text classification: feature extraction, baselines, evaluation
-\* Web search
+1. Introduction to IR and text processing, system components
+2. Zipf, Heaps, and other text laws
+3. Pre-processing: tokenization, normalisation, stemming, stopping.
+4. Indexing: inverted index, boolean and proximity search
+5. Evaluation methods and measures (e.g., precision, recall, MAP, significance testing).
+6. Query expansion
+7. IR toolkits and applications
+8. Ranked retrieval and learning to rank
+9. Text classification: feature extraction, baselines, evaluation
+10. Web search
 
 
 
