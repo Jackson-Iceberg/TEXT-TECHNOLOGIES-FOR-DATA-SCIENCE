@@ -24,20 +24,20 @@ because usually we think of words being a part of documents, but if we invert th
 
 Documents→IR(inverted index)
 
-![lect5-img1](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect5-img1.png)
+![lect5-img1](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect5-img1.png)
 
 IR+word counts
 
-![lect5-img2](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect5-img2.png)
+![lect5-img2](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect5-img2.png)
 
 IR+word positions
 
-![lect5-img3](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect5-img3.png)
+![lect5-img3](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect5-img3.png)
 
 - to avoid these are two sentences, on Coincidence to match the two words, so adding the restriation of index OR position, to ensure the words are in the same sentence.防止因为巧合，本来两个不相干的词，处于上下句结构，导致误以为match上了。解决方法如下图，拆分句子storing
 - Storing way: feature function values, the values means the score that this sentence gain. Higher score means higher rank.
     
-    ![lect5-img4](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect5-img4.png)
+![lect5-img4](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect5-img4.png)
     
 
 **Scores**
@@ -55,7 +55,7 @@ IR+word positions
 
 **Collection Matrix**
 
-![lect5-img5](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect5-img5.png)
+![lect5-img5](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect5-img5.png)
 
 - In big collections, because Zip’s law → 250k terms appears once
 - hence Collection matrix is extremely sparse.(mostly 0’s)
@@ -65,24 +65,24 @@ IR+word positions
 - for each term t, we must store a list of all documents that contains t.
 - Identifying each by a **docID, a document serial number**.
 
-![lect5-img6](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect5-img6.png)
+![lect5-img6](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect5-img6.png)
 
 Inverted Index Construction
 
-![lect5-img7](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect5-img7.png)
+![lect5-img7](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect5-img7.png)
 
-![lect5-img8](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect5-img8.png)
+![lect5-img8](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect5-img8.png)
 
-![lect5-img9](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect5-img9.png)
+![lect5-img9](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect5-img9.png)
 
-![lect5-img10](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect5-img10.png)
+![lect5-img10](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect5-img10.png)
 
-![lect5-img11](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect5-img11.png)
+![lect5-img11](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect5-img11.png)
 
 Phrase Search & Proximity Index
 
-![lect5-img12](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect5-img12.png)
+![lect5-img12](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect5-img12.png)
 
 Query Processing: Proximity & Proximity search: data structure
 
-![lect5-img13](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect5-img13.png)
+![lect5-img13](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect5-img13.png)
