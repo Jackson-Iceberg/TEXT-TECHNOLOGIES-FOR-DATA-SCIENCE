@@ -14,20 +14,20 @@
 - Pr, probability of appearance of term.
 - **1/rank of word * constant = frequency of the word**
     
-![lect3-img1](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect3-img1.png)
+![lect3-img1](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect3-img1.png)
     
 - rank越靠前，该单词出现的频率越高；Rank*单词频率=常量，作用：可以根据单词的Rank来推断频率，或者通过频率来决定Rank。这样可以帮助排序哪个单词更有可能出现，从而排先后顺序。
 - THE出现的频率是1的话，OF出现的频率是1/2，AND出现的频率是1/3，TO是1/4，以此类推。
     
-![lect3-img2](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect3-img2.png)
+![lect3-img2](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect3-img2.png)
     
 - 5555是sauce的rank，frequecny最后查到是29869。181million是THE的frequency
 
-![lect3-img3](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect3-img3.png)
+![lect3-img3](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect3-img3.png)
 
 - Frequency of words has hard exponential decay
 
-![lect3-img4](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect3-img4.png)
+![lect3-img4](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect3-img4.png)
 
 ### Benford’s Law
 
@@ -35,7 +35,7 @@
 - P(d) = log(1+1/d)
 - 
 
-![lect3-img5](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect3-img5.png)
+![lect3-img5](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect3-img5.png)
 
 - P(1) = ln(1+1/1)/ln(10) = 0.301.
 - P(2) = ln(1+1/2)/ln(10) = 0.185
@@ -61,7 +61,7 @@
 - where b<1, 0.4<b<0.7
 - 
 
-![lect3-img6](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect3-img6.png)
+![lect3-img6](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect3-img6.png)
 
 ### **Clumping/Contagion in text**
 
