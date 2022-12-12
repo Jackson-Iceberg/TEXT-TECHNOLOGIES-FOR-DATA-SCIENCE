@@ -95,4 +95,4 @@
 
 **Potential solutions:**
 
-![lect4-img1](https://github.com/Jackson-Iceberg/TTDS-Notes/blob/main/images/lect4-img1.png)
+![lect4-img1](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect4-img1.png)
