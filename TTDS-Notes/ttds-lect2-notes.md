@@ -43,7 +43,7 @@ Challenge in relevance
 
 **IR的Database和normal Database区别**
 
-![lect2-img1](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/images/lect2-img1.png)
+![lect2-img1](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect2-img1.png)
 
 IR系统
 
@@ -58,6 +58,5 @@ IR系统
         - according user’s actions, adjust retrieval model.
     
 
-![lect2-img2](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/images/lect2-img2.png)
-
-![lect2-img3](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/images/lect2-img3.png)
+![lect2-img2](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect2-img2.png)
+![lect2-img3](https://github.com/Jackson-Iceberg/TEXT-TECHNOLOGIES-FOR-DATA-SCIENCE/blob/main/TTDS-Notes/images/lect2-img3.png)
